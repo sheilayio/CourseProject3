@@ -52,7 +52,7 @@ For each record it is provided:-
 * an identifier of the subject who carried out the experiment (SubjectID): int 1:30
 * a 66-feature vector with time and frequency domain signal variables (numeric)
 
-The 66-feature vector includes:-
+The 66-feature vector consists of the averaged value for each activity and each subject for:-
 
 * Mean and Standard Deviation for tBodyAcc and fBodyAcc for XYZ axis
 * Mean and Standard Deviation for tGravityAcc for XYZ axis
@@ -64,3 +64,4 @@ The 66-feature vector includes:-
 * Mean and Standard Deviation for tBodyAccJerkMag and fBodyAccJerkMag
 * Mean and Standard Deviation for tBodyGyroMag and fBodyGyroMag
 * Mean and Standard Deviation for tBodyGyroJerkMag and fBodyGyroJerkMag
+
